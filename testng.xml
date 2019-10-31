@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="HonestFood.honest.finaltest.TestWeb"/>
+      <parameter name="BrowserToOpen" value="chrome"></parameter>
+			<parameter name="AppUrl" value="https://clubkitchen.at"></parameter>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
